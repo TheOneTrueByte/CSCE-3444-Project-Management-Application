@@ -59,7 +59,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/nextCategory"
         app:srcCompat="@drawable/break_line" />
 
     <ImageView
@@ -97,7 +97,7 @@
 
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/prevCategory"
         android:layout_width="289dp"
         android:layout_height="22dp"
         android:layout_marginTop="350dp"
@@ -109,7 +109,7 @@
         app:srcCompat="@drawable/break_line" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/nextCategory"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"

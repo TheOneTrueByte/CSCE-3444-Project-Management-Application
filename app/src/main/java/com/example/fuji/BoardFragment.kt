@@ -58,7 +58,7 @@ class BoardFragment : Fragment() {
 
         view.findViewById<ImageView>(R.id.info_icon).setOnClickListener {
             val helpBoard: BoardsActivity = activity as BoardsActivity
-                helpBoard.switchToHelpFragment()
+            helpBoard.switchToHelpFragment()
         }
     }
 }

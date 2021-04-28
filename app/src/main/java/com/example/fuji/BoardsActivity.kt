@@ -53,4 +53,5 @@ class BoardsActivity : AppCompatActivity() {
         transaction.replace(R.id.board_frame, helpFragment)
         transaction.commit()
     }
+
 }

@@ -15,21 +15,24 @@
         <ImageView
             android:id="@+id/board_ui_task_box"
             android:layout_width="381dp"
-            android:layout_height="562dp"
+            android:layout_height="0dp"
             android:layout_marginTop="32dp"
+            android:layout_marginBottom="144dp"
             android:src="@drawable/task_square"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/boards_ui_breakline"
+            app:layout_constraintTop_toBottomOf="@+id/createCatButton"
             app:layout_constraintVertical_bias="0.0" />
 
         <ImageView
             android:id="@+id/board_ui_left_bracket"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="73dp"
             android:src="@drawable/left_bracket"
             app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/createCatButton"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -116,7 +119,7 @@
             app:layout_constraintVertical_bias="0.75" />
 
         <ImageView
-            android:id="@+id/imageView6"
+            android:id="@+id/prevCategory"
             android:layout_width="57dp"
             android:layout_height="54dp"
             android:layout_marginStart="16dp"
@@ -129,7 +132,7 @@
             app:layout_constraintVertical_bias="0.478" />
 
         <ImageView
-            android:id="@+id/imageView7"
+            android:id="@+id/nextCategory"
             android:layout_width="57dp"
             android:layout_height="54dp"
             android:layout_marginEnd="16dp"
@@ -140,6 +143,18 @@
             app:layout_constraintStart_toEndOf="@+id/board_ui_list"
             app:layout_constraintTop_toTopOf="@+id/board_ui_task_box"
             app:layout_constraintVertical_bias="0.496" />
+
+        <ImageView
+            android:id="@+id/createCatButton"
+            android:layout_width="51dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="125dp"
+            android:layout_marginEnd="290dp"
+            android:src="@drawable/orange_name_background"
+            app:layout_constraintBottom_toTopOf="@+id/board_ui_task_box"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/board_ui_left_bracket"
+            app:layout_constraintTop_toTopOf="parent" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
